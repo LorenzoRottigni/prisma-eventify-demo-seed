@@ -1,0 +1,19 @@
+{
+  "name": "prisma-eventify-demo-seed",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:LorenzoRottigni/prisma-eventify-demo-seed.git",
+  "author": "LorenzoRottigni <lorenzo@rottigni.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.27",
+    "prisma": "^5.11.0",
+    "prisma-eventify": "^0.0.1-alpha.8807fac",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  },
+  "scripts": {
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate"
+  }
+}
