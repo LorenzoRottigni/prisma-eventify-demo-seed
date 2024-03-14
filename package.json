@@ -8,12 +8,16 @@
   "devDependencies": {
     "@types/node": "^20.11.27",
     "prisma": "^5.11.0",
-    "prisma-eventify": "^0.0.1-alpha.8807fac",
+    "prisma-eventify": "^0.0.2-alpha.96bc1b1",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.2"
   },
   "scripts": {
     "prisma:generate": "prisma generate",
-    "prisma:migrate": "prisma migrate"
+    "prisma:migrate": "prisma migrate",
+    "prisma:seed": "prisma db seed"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
   }
 }

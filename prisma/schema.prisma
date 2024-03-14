@@ -14,7 +14,8 @@ generator client {
 }
 
 generator eventify {
-  provider = "prisma-eventify"
+  provider      = "prisma-eventify"
+  excludeFields = ["id"]
 }
 
 model User {
