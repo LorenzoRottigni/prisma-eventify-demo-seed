@@ -166,10 +166,10 @@ make-error@^1.1.1:
   resolved "https://registry.yarnpkg.com/make-error/-/make-error-1.3.6.tgz#2eb2e37ea9b67c4891f684a1394799af484cf7a2"
   integrity sha512-s8UhlNe7vPKomQhC1qFelMokr/Sc3AgNbso3n74mVPA5LTZwkB9NlXf4XPamLxJE8h0gh73rM94xvwRT2CVInw==
 
-prisma-eventify@^0.0.3-alpha:
-  version "0.0.3-alpha"
-  resolved "https://registry.yarnpkg.com/prisma-eventify/-/prisma-eventify-0.0.3-alpha.tgz#8163cf18595200cbfa21aed1204115e52601a7ca"
-  integrity sha512-C9HglpPQPkTL7M/7/KS14V0yuJNJj7DHESqUHQFs0y+a4h8sQPN9+C43CUB35OCr2Y/074U58Y48OvtpaOlqKw==
+prisma-eventify@^0.0.5-alpha:
+  version "0.0.5-alpha"
+  resolved "https://registry.yarnpkg.com/prisma-eventify/-/prisma-eventify-0.0.5-alpha.tgz#bb7e2a46fec3cc4e8b89a2def60a06c719c4fbe8"
+  integrity sha512-wMfjK9kcoR9rAMfL/4X9J6mJIe1JDHZBWpHAkXNC1APgGaH+MRpD958IYHPcPE43dgcrVJdQ5XUeRN3Y0Kau1w==
   dependencies:
     "@prisma/client" "^5.10.2"
     "@prisma/generator-helper" "^5.10.2"
